@@ -36,7 +36,7 @@ class authWithNumber extends GetxController {
   void singUpWithNumber() async {
     try {
       await auth.verifyPhoneNumber(
-        phoneNumber: '+91${number.text}',
+        phoneNumber: '+212${number.text}',
         verificationCompleted: (PhoneAuthCredential credential) {
           print(credential);
         },
