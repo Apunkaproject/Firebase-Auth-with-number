@@ -44,39 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA0bYFGkjqvAE03jtrzQV_yTI1pMbGuyUw',
-    appId: '1:510800930792:web:d4fd601bea48a78076665d',
-    messagingSenderId: '510800930792',
-    projectId: 'auth-97989',
-    authDomain: 'auth-97989.firebaseapp.com',
-    storageBucket: 'auth-97989.appspot.com',
+    apiKey: 'AIzaSyDVDr_ZEYM0G-MXk1cWOc8QyACtjrGRz9k',
+    appId: '1:833051621278:web:da21644cb965485197888f',
+    messagingSenderId: '833051621278',
+    projectId: 'test-sms-511ae',
+    authDomain: 'test-sms-511ae.firebaseapp.com',
+    storageBucket: 'test-sms-511ae.appspot.com',
+    measurementId: 'G-G657NEFSEN',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCHM6aHs2mWi-5qSB0mwghDCWs_KGPcf00',
-    appId: '1:510800930792:android:a41a1382207b8d7c76665d',
-    messagingSenderId: '510800930792',
-    projectId: 'auth-97989',
-    storageBucket: 'auth-97989.appspot.com',
+    apiKey: 'AIzaSyD4W8QU0d2LsP3sYgsboglgPfCaVoFLYN0',
+    appId: '1:833051621278:android:5dda57550c9de5bd97888f',
+    messagingSenderId: '833051621278',
+    projectId: 'test-sms-511ae',
+    storageBucket: 'test-sms-511ae.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCgPBOp8fNrBbkmaYiJKnSD_mm59ruo1u8',
-    appId: '1:510800930792:ios:05421ffb1ac5acfb76665d',
-    messagingSenderId: '510800930792',
-    projectId: 'auth-97989',
-    storageBucket: 'auth-97989.appspot.com',
-    iosClientId: '510800930792-g4tg538q8t48vfvgtdoknhg398ffmpoi.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCK0BfNfTTR-oKemvgxrD5mXLTAUMWA-UM',
+    appId: '1:833051621278:ios:0aa25567e1c6817097888f',
+    messagingSenderId: '833051621278',
+    projectId: 'test-sms-511ae',
+    storageBucket: 'test-sms-511ae.appspot.com',
+    iosClientId: '833051621278-4tc3klvk44qvmk1oljpsvdp76flgch0p.apps.googleusercontent.com',
     iosBundleId: 'com.example.firebase',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCgPBOp8fNrBbkmaYiJKnSD_mm59ruo1u8',
-    appId: '1:510800930792:ios:05421ffb1ac5acfb76665d',
-    messagingSenderId: '510800930792',
-    projectId: 'auth-97989',
-    storageBucket: 'auth-97989.appspot.com',
-    iosClientId: '510800930792-g4tg538q8t48vfvgtdoknhg398ffmpoi.apps.googleusercontent.com',
+    apiKey: 'AIzaSyCK0BfNfTTR-oKemvgxrD5mXLTAUMWA-UM',
+    appId: '1:833051621278:ios:0aa25567e1c6817097888f',
+    messagingSenderId: '833051621278',
+    projectId: 'test-sms-511ae',
+    storageBucket: 'test-sms-511ae.appspot.com',
+    iosClientId: '833051621278-4tc3klvk44qvmk1oljpsvdp76flgch0p.apps.googleusercontent.com',
     iosBundleId: 'com.example.firebase',
   );
 }

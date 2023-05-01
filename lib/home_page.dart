@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: () {
-                Get.to(SingupPage());
+                Get.to(const SingupPage());
               },
               icon: Icon(Icons.person),
             ),

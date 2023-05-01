@@ -19,7 +19,7 @@ class SingupPage extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Image.asset("assets/images/login.png"),
               Row(
                 children: const [
@@ -32,7 +32,7 @@ class SingupPage extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Row(
                 children: const [
                   Flexible(
@@ -47,7 +47,7 @@ class SingupPage extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               Row(
                 children: [
                   Expanded(
@@ -59,19 +59,17 @@ class SingupPage extends StatelessWidget {
                           fillColor: Colors.deepPurple.shade100,
                           filled: true,
                           hintText: "Enter Mobile Number",
-                          prefix: Container(
-                            child: Text("+91"),
-                          )),
+                          prefix: const Text("+212")),
                     ),
                   )
                 ],
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               ElevatedButton(
                 onPressed: () {
                   controller.singUpWithNumber();
                 },
-                child: Text("SIGN UP"),
+                child: const Text("SIGN UP"),
               )
             ],
           ),

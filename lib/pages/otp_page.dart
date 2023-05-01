@@ -16,7 +16,7 @@ class OTPPage extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               children: [
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Image.asset("assets/images/otp.png"),
                 Row(
                   children: const [
@@ -63,7 +63,7 @@ class OTPPage extends StatelessWidget {
                 SizedBox(height: 10),
                 ElevatedButton(
                   onPressed: () {
-                  controller.verifyMobilerNumber();
+                    controller.verifyMobilerNumber();
                   },
                   child: Text("DONE"),
                 )
